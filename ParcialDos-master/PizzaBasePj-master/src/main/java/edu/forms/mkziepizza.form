@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.forms.fmrPizza1">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="825" height="705"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d5fe1" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="f4be7" binding="jPanelPincipal" layout-manager="GridLayoutManager" row-count="20" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-871740"/>
+          <enabled value="false"/>
+          <font name="Elephant"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e41dc" class="javax.swing.JTextField" binding="txtPizza">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a9174" class="javax.swing.JList" binding="lista1">
+            <constraints>
+              <grid row="15" column="0" row-span="4" col-span="2" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6184543"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="7ec27" class="javax.swing.JButton" binding="btnAddIngrediente">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+              <enabled value="true"/>
+              <font name="Segoe Print"/>
+              <text value="Agregar Ingrediente "/>
+            </properties>
+          </component>
+          <component id="bb91" class="javax.swing.JButton" binding="buttonRemoverIngredientes">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+              <font name="Segoe Print"/>
+              <text value="Delete Ingredients"/>
+            </properties>
+          </component>
+          <component id="313c7" class="javax.swing.JButton" binding="preparaPizzaButton" default-binding="true">
+            <constraints>
+              <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+              <font name="Segoe Print"/>
+              <text value="Prepara  Pizza"/>
+            </properties>
+          </component>
+          <component id="24922" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cooper Black" size="36" style="0"/>
+              <text value="Mkzie Pizza´s"/>
+            </properties>
+          </component>
+          <component id="fe743" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print"/>
+              <text value="Added ingredients with price "/>
+            </properties>
+          </component>
+          <component id="f816b" class="javax.swing.JList" binding="list2">
+            <constraints>
+              <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6184543"/>
+            </properties>
+          </component>
+          <component id="56746" class="javax.swing.JRadioButton" binding="ballyRadioButton">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-871740"/>
+              <font name="Elephant"/>
+              <text value="Bally"/>
+            </properties>
+          </component>
+          <component id="1c237" class="javax.swing.JRadioButton" binding="ventiRadioButton">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-871740"/>
+              <font name="Elephant"/>
+              <text value="Venti"/>
+            </properties>
+          </component>
+          <component id="d5ead" class="javax.swing.JRadioButton" binding="mexiRadioButton">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-871740"/>
+              <font name="Elephant"/>
+              <text value="Mexi"/>
+            </properties>
+          </component>
+          <component id="397aa" class="javax.swing.JRadioButton" binding="ventitwoRadioButton">
+            <constraints>
+              <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="24"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-871740"/>
+              <font name="Elephant"/>
+              <text value="Venti two"/>
+            </properties>
+          </component>
+          <component id="39f90" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print"/>
+              <text value="Size"/>
+            </properties>
+          </component>
+          <component id="38a9d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Elephant"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="964e0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="27"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe Print"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="21b0c" class="javax.swing.JComboBox" binding="ComboPrepararPizza">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="38"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+            </properties>
+          </component>
+          <component id="bb9e0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print"/>
+              <text value="Ingredients"/>
+            </properties>
+          </component>
+          <component id="c2046" class="javax.swing.JComboBox" binding="comboTipoPizza">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="ac843" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+              <font name="Segoe Print"/>
+              <foreground color="-16777216"/>
+              <labelFor value="c2046"/>
+              <text value="Tipo  de Pizza"/>
+            </properties>
+          </component>
+          <component id="6d20e" class="javax.swing.JLabel" binding="lblTotal">
+            <constraints>
+              <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Elephant"/>
+              <text value="0.00"/>
+            </properties>
+          </component>
+          <component id="2a3e8" class="javax.swing.JComboBox" binding="ComboRemoverIngredientes">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="38"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-234"/>
+              <model/>
+            </properties>
+          </component>
+          <component id="673b4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print"/>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="ef05" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Elephant"/>
+              <text value="Q."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
